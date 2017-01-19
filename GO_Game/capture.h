@@ -12,9 +12,8 @@
 #include <iostream>
 
 bool test_capture(char tableau[MSIZE][MSIZE],int i, int j, char couleur);
-std::vector<int> touche_diff(char tableau[MSIZE][MSIZE],int i,int j,char couleur);
-bool pion_capture(char tableau[MSIZE][MSIZE],int i,int j,char couleur);
-void enlever_pierres(char& tableau[MSIZE][MSIZE]);
+void enlever_pierres(char tableau[MSIZE][MSIZE]);
+std::vector<int> unite(char tableau[MSIZE][MSIZE],int i,int j,char couleur);
 
 #endif	/* CAPTURE_H */
 
